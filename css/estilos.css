@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2em;
+  margin-top: 1em;
+}
+
+.menu li{
+  display: inline-block;
+  list-style: none;
+  font-size: 13px;
+  margin-left: 0.9em;
+}
+
+.menu input{
+  background: #4285f4;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0.3em 0.9em;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 8em;
+  padding-bottom: 1.6em;
+}
+
+.buscador{
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 0.2em;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-left: 17em;
+  width: 53%;
+  height: 45px;
+}
+
+.buscador > input{
+  width: 90%;
+  height: 35px;
+  border: none;
+  outline: none;
+  margin: 0.3em;
+  padding-left: 0.5em;
+}
+
+.buscador > img{
+  height: 42px;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.botones{
+  text-align: center;
+  margin-bottom: 1.6em;
+}
+
+.botones input{
+  border: 1px solid white;
+  border-radius: 0.2em;
+  background-color: rgb(241, 241, 240);
+  font-size: 13px;
+  color: dimgray;
+  font-weight: bold;
+  margin: 0 0.2em;
+  padding: 0.7em 1.4em;
+}
+
+.botones input:hover{
+  color: black;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.idiomas{ 
+  font-size: 13px;
+  text-align: center;
+}
+
+.idiomas p{
+  display: inline;
+}
+
+.idiomas a{
+  color:#1a0dab;
+  margin-left: 0.4em;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  border: 1px solid #e4e4e4;
+}
+
+.footer--pais{
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e4e4e4;
+  color: rgba(0,0,0,.54);
+  padding-left: 2em;
+  font-size: 15px;
+  padding-top: 1em;
+  line-height: 10px;
+}
+
+.footer--final{
+  background-color: #f2f2f2;
+  color:#666;
+  line-height: 38px;
+  font-size: 13px;
+}
+
+.foot--izquierda{
+  padding-left: 2.2em;
+}
+
+.foot--izquierda a{
+  color:#666;
+  margin-right: 1.8em; 
+}
+
+.foot--derecha{
+  padding-right: 2.2em;
+  text-align: end;
+}
+
+.foot--derecha a{
+  color:#666;
+  margin-left: 1.8em; 
+}
